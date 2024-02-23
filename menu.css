@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    color: #222;
+}
+.menu ul{
+    background-color: #7fffd4;
+    list-style-type: none;
+    float: none;
+    padding-bottom: 5px;
+}
+.menu li{
+    color: blueviolet;
+    display: inline-block;
+    width: 150px ;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 95px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #222;
+    display: block;
+    font-weight: bold;
+}
+.menu ul li a img {
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+.menu ul li a:hover{
+    background-color: #f1f1f1;
+    color: #222;
+    padding: 5px;
+}
+.menu .sub-menu{
+    position: absolute;
+    padding-bottom: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: none;
+    top: auto;
+    left: 300px;
+}
+.menu li:hover .sub-menu {
+    display: flex;
+}
+marquee {
+    margin-top: 90px;
+    background-color: lightgray;
+}
+.slide img {
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 350px;
+    height: auto;
+}
+form input {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    padding: 15px;
+    width: 500px;
+    height: 50px;
+}
+form h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: purple;
+    text-align: center;
+    margin-top: 5px;
+}
+form button{
+    margin-left: 845px;
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+}
+.album h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: purple;
+    text-align: center;
+    margin-top: 10px;
+}
+.album img {
+    width: 15%;
+    height: 300px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+footer{
+    margin-top: 15px;
+    color: #f1f1f1;
+    background-color: #222;
+    text-align: center;
+    padding: 20px;
+}
+footer a img {
+    width: 50px;
+    height: 50px;
+}
+footer a {
+    margin-left: 5px;
+    padding-top: 10px;
+}
